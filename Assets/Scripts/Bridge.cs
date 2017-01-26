@@ -8,16 +8,16 @@ public class Bridge : MonoBehaviour
 	
 	void Start () 
 	{
-	 	m_InitialColor = renderer.material.color;
+	 	m_InitialColor = GetComponent<Renderer>().material.color;
 	}
 	
 	public void SetTransparent()
 	{
-		renderer.material.color = transparentColor;
+		GetComponent<Renderer>().material.color = transparentColor;
 	}
 	
 	public void SetToNormal()
 	{
-		renderer.material.color = m_InitialColor;
+		GetComponent<Renderer>().material.color = m_InitialColor;
 	}
 }

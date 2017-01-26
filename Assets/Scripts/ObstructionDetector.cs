@@ -17,10 +17,10 @@ public class ObstructionDetector : MonoBehaviour
 		{
 			yield return new WaitForSeconds(0.5f);
 			
-			Vector3 direction = (playerTrans.position - Camera.mainCamera.transform.position).normalized;
+			Vector3 direction = (playerTrans.position - Camera.main.transform.position).normalized;
 			RaycastHit rayCastHit;
 			
-			if(Physics.Raycast(Camera.mainCamera.transform.position, direction, out rayCastHit, Mathf.Infinity))
+			if(Physics.Raycast(Camera.main.transform.position, direction, out rayCastHit, Mathf.Infinity))
 			{
 				Bridge bridge = rayCastHit.collider.gameObject.GetComponent<Bridge>();
 				if(bridge)
