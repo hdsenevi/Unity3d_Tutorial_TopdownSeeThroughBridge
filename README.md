@@ -8,5 +8,9 @@ https://www.youtube.com/watch?v=dTY5_HRfICo
 
 Tested on
 ---------
-* Unity version 5.5.0
-* macOS Sierra version 10.12.2
+* Unity version 2019.3.0f6
+* macOS Catalina 10.15.2
+
+Previous version
+----------------
+* Unity version 5.5 can be found on this branch : 
