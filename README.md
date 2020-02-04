@@ -13,4 +13,4 @@ Tested on
 
 Previous version
 ----------------
-* Unity version 5.5 can be found on this branch : 
+* Unity version 5.5 can be found on this branch : https://github.com/hdsenevi/Unity3d_Tutorial_TopdownSeeThroughBridge/blob/Unity-5.5/README.md
